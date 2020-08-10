@@ -1,3 +1,14 @@
-# Google Assistant Project
+# Robin
+Please, meet Robin, our voice assistant for software developers.
 
-For devs to have access and answers to information regarding their repo of interest with the help of the GitHub API and Google Actions.
+## Setup
+- Download and install Node.js and npm
+- Install dependencies using ```$ npm install```
+- Setup a Heroku remote from the project's root folder to deploy changes
+
+## Running tests
+
+To run unit tests, execute the following command from the project's root folder:
+  ```
+  $ jest --collectCoverage
+  ```

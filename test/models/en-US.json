@@ -1,0 +1,332 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "robin helper",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ListReposIntent",
+                    "slots": [
+                        {
+                            "name": "username",
+                            "type": "user"
+                        }
+                    ],
+                    "samples": [
+                        "List all repos for user {username}",
+                        "List all repos for {username}",
+                        "List repos for {username}",
+                        "What are the repos from user {username}",
+                        "List all repos from user {username}",
+                        "List all repos from {username}",
+                        "What are the repositories from {username}",
+                        "What are the repos from owner {username}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "NumIssuesIntent",
+                    "slots": [
+                        {
+                            "name": "repository",
+                            "type": "user"
+                        },
+                        {
+                            "name": "user",
+                            "type": "user"
+                        }
+                    ],
+                    "samples": [
+                        "How many open issues are there",
+                        "How many issues are open"
+                    ]
+                },
+                {
+                    "name": "GiveRepoNameIntent",
+                    "slots": [
+                        {
+                            "name": "repository",
+                            "type": "user"
+                        }
+                    ],
+                    "samples": [
+                        "select {repository}",
+                        "pick {repository}",
+                        "choose {repository}",
+                        "interact with repository {repository}",
+                        "interact with {repository}",
+                        "use repo {repository}",
+                        "Use respository {repository}"
+                    ]
+                },
+                {
+                    "name": "GiveOwnerNameIntent",
+                    "slots": [
+                        {
+                            "name": "user",
+                            "type": "user"
+                        }
+                    ],
+                    "samples": [
+                        "owner is {user}",
+                        "the owner is {user}",
+                        "user {user}",
+                        "username {user}",
+                        "{user}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetLabelsIntent",
+                    "slots": [],
+                    "samples": [
+                        "What labels are there",
+                        "List all available labels",
+                        "List available labels",
+                        "What are the available labels in this repository",
+                        "What are the available labels in this repo"
+                    ]
+                },
+                {
+                    "name": "GetIssuesWithLabelIntent",
+                    "slots": [
+                        {
+                            "name": "label",
+                            "type": "user"
+                        }
+                    ],
+                    "samples": [
+                        "What issues have the label {label}",
+                        "List issues with the label {label}",
+                        "What are the issues with the label {label}"
+                    ]
+                },
+                {
+                    "name": "GetIssueAssigneesIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Get issue number {number} assignees",
+                        "Who is assigned to issue number {number}",
+                        "Who are the assignees for issue number {number}"
+                    ]
+                },
+                {
+                    "name": "GetNumAssignedOpenIssuesIntent",
+                    "slots": [],
+                    "samples": [
+                        "How many issues have been assigned",
+                        "How many issues are assigned",
+                        "How many open issues are assigned to someone",
+                        "How many open issues are assigned",
+                        "How many assigned open issues are there"
+                    ]
+                },
+                {
+                    "name": "GetAssigneeIssuesIntent",
+                    "slots": [
+                        {
+                            "name": "user",
+                            "type": "user"
+                        }
+                    ],
+                    "samples": [
+                        "List all issues assigned to {user}",
+                        "What are the issues assigned to {user}"
+                    ]
+                },
+                {
+                    "name": "GetNumPRsIntent",
+                    "slots": [],
+                    "samples": [
+                        "Get number of open pull requests",
+                        "How many open pull requests are there"
+                    ]
+                },
+                {
+                    "name": "GetPROwnersIntent",
+                    "slots": [],
+                    "samples": [
+                        "Who has an open pull request right now",
+                        "Who has an active pull request right now"
+                    ]
+                },
+                {
+                    "name": "GetMedianReviewTimeIntent",
+                    "slots": [
+                        {
+                            "name": "dateOne",
+                            "type": "AMAZON.DATE"
+                        },
+                        {
+                            "name": "dateTwo",
+                            "type": "AMAZON.DATE"
+                        }
+                    ],
+                    "samples": [
+                        "What is the median pull request review time from {dateOne} to {dateTwo}",
+                        "What's the average pull request review time",
+                        "What is the average pull request review time",
+                        "What is the median pull request review time"
+                    ]
+                },
+                {
+                    "name": "MergeBranchIntent",
+                    "slots": [
+                        {
+                            "name": "base",
+                            "type": "user"
+                        },
+                        {
+                            "name": "head",
+                            "type": "user"
+                        }
+                    ],
+                    "samples": [
+                        "merge head {head} into base {base}",
+                        "merge branch {head} into branch {base}",
+                        "merge {head} into {base}"
+                    ]
+                },
+                {
+                    "name": "MergePRIntent",
+                    "slots": [
+                        {
+                            "name": "number",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "Merge pull request {number}",
+                        "Merge p r number {number}",
+                        "Merge p r {number}",
+                        "Merge pull request number {number}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "user",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "camel capital c lowercase a m e l"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "merge capital b ranch"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "merge capital b lowercase r a n c h"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "merge branch"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "feature"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "issue comments underscore analysis"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "alexa"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "carebox"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "facebook"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "google dash assistant dash skills"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "eric dash newcomer"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "react"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bcdasilv"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hebertca18"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "message",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "merge feature into master"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "this is a long message with lots of words"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
