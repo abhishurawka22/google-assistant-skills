@@ -1,0 +1,58 @@
+[
+	{
+		"data": [
+			{
+				"text": "What is the median pull request review time from ",
+				"userDefined": false
+			},
+			{
+				"text": "dateOne",
+				"userDefined": true,
+				"alias": "dateOne",
+				"meta": "@sys.date-time"
+			},
+			{
+				"text": " to ",
+				"userDefined": false
+			},
+			{
+				"text": "dateTwo",
+				"userDefined": true,
+				"alias": "dateTwo",
+				"meta": "@sys.date-time"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "What's the average pull request review time",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "What is the average pull request review time",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "What is the median pull request review time",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

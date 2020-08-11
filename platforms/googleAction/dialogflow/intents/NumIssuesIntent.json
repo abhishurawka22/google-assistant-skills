@@ -1,0 +1,23 @@
+{
+	"name": "NumIssuesIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "repository",
+					"value": "$repository",
+					"dataType": "@user"
+				},
+				{
+					"isList": false,
+					"name": "user",
+					"value": "$user",
+					"dataType": "@user"
+				}
+			]
+		}
+	]
+}

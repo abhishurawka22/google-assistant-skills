@@ -1,0 +1,17 @@
+{
+	"name": "ListReposIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "username",
+					"value": "$username",
+					"dataType": "@user"
+				}
+			]
+		}
+	]
+}

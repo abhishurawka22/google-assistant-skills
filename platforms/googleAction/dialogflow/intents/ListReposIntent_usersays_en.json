@@ -1,0 +1,130 @@
+[
+	{
+		"data": [
+			{
+				"text": "List all repos for user ",
+				"userDefined": false
+			},
+			{
+				"text": "username",
+				"userDefined": true,
+				"alias": "username",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "List all repos for ",
+				"userDefined": false
+			},
+			{
+				"text": "username",
+				"userDefined": true,
+				"alias": "username",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "List repos for ",
+				"userDefined": false
+			},
+			{
+				"text": "username",
+				"userDefined": true,
+				"alias": "username",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "What are the repos from user ",
+				"userDefined": false
+			},
+			{
+				"text": "username",
+				"userDefined": true,
+				"alias": "username",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "List all repos from user ",
+				"userDefined": false
+			},
+			{
+				"text": "username",
+				"userDefined": true,
+				"alias": "username",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "List all repos from ",
+				"userDefined": false
+			},
+			{
+				"text": "username",
+				"userDefined": true,
+				"alias": "username",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "What are the repositories from ",
+				"userDefined": false
+			},
+			{
+				"text": "username",
+				"userDefined": true,
+				"alias": "username",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "What are the repos from owner ",
+				"userDefined": false
+			},
+			{
+				"text": "username",
+				"userDefined": true,
+				"alias": "username",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

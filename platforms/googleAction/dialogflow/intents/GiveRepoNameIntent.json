@@ -1,0 +1,17 @@
+{
+	"name": "GiveRepoNameIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "repository",
+					"value": "$repository",
+					"dataType": "@user"
+				}
+			]
+		}
+	]
+}

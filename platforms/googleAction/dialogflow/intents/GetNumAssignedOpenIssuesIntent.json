@@ -1,0 +1,10 @@
+{
+	"name": "GetNumAssignedOpenIssuesIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": []
+		}
+	]
+}

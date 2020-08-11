@@ -1,0 +1,54 @@
+[
+	{
+		"data": [
+			{
+				"text": "Get issue number ",
+				"userDefined": false
+			},
+			{
+				"text": "number",
+				"userDefined": true,
+				"alias": "number",
+				"meta": "@sys.number"
+			},
+			{
+				"text": " assignees",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Who is assigned to issue number ",
+				"userDefined": false
+			},
+			{
+				"text": "number",
+				"userDefined": true,
+				"alias": "number",
+				"meta": "@sys.number"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Who are the assignees for issue number ",
+				"userDefined": false
+			},
+			{
+				"text": "number",
+				"userDefined": true,
+				"alias": "number",
+				"meta": "@sys.number"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

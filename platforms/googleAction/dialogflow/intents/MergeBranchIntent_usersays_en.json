@@ -1,0 +1,80 @@
+[
+	{
+		"data": [
+			{
+				"text": "merge head ",
+				"userDefined": false
+			},
+			{
+				"text": "head",
+				"userDefined": true,
+				"alias": "head",
+				"meta": "@user"
+			},
+			{
+				"text": " into base ",
+				"userDefined": false
+			},
+			{
+				"text": "base",
+				"userDefined": true,
+				"alias": "base",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "merge branch ",
+				"userDefined": false
+			},
+			{
+				"text": "head",
+				"userDefined": true,
+				"alias": "head",
+				"meta": "@user"
+			},
+			{
+				"text": " into branch ",
+				"userDefined": false
+			},
+			{
+				"text": "base",
+				"userDefined": true,
+				"alias": "base",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "merge ",
+				"userDefined": false
+			},
+			{
+				"text": "head",
+				"userDefined": true,
+				"alias": "head",
+				"meta": "@user"
+			},
+			{
+				"text": " into ",
+				"userDefined": false
+			},
+			{
+				"text": "base",
+				"userDefined": true,
+				"alias": "base",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

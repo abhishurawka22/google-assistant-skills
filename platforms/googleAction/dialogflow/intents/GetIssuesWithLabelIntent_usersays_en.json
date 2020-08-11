@@ -1,0 +1,50 @@
+[
+	{
+		"data": [
+			{
+				"text": "What issues have the label ",
+				"userDefined": false
+			},
+			{
+				"text": "label",
+				"userDefined": true,
+				"alias": "label",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "List issues with the label ",
+				"userDefined": false
+			},
+			{
+				"text": "label",
+				"userDefined": true,
+				"alias": "label",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "What are the issues with the label ",
+				"userDefined": false
+			},
+			{
+				"text": "label",
+				"userDefined": true,
+				"alias": "label",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

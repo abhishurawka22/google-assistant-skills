@@ -1,0 +1,66 @@
+[
+	{
+		"data": [
+			{
+				"text": "Merge pull request ",
+				"userDefined": false
+			},
+			{
+				"text": "number",
+				"userDefined": true,
+				"alias": "number",
+				"meta": "@sys.number"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Merge p r number ",
+				"userDefined": false
+			},
+			{
+				"text": "number",
+				"userDefined": true,
+				"alias": "number",
+				"meta": "@sys.number"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Merge p r ",
+				"userDefined": false
+			},
+			{
+				"text": "number",
+				"userDefined": true,
+				"alias": "number",
+				"meta": "@sys.number"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Merge pull request number ",
+				"userDefined": false
+			},
+			{
+				"text": "number",
+				"userDefined": true,
+				"alias": "number",
+				"meta": "@sys.number"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

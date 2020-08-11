@@ -1,0 +1,22 @@
+[
+	{
+		"data": [
+			{
+				"text": "Who has an open pull request right now",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Who has an active pull request right now",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

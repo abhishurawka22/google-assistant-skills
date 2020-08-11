@@ -1,33 +1,37 @@
 {
-  "name": "skill",
-  "version": "1.0.0",
-  "description": "alexa skill",
-  "engines": {
-    "node": "12.18.0"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "start": "DEBUG=axios node alexa/index.js"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "jovo-sample-voice-app-nodejs",
+  "version": "3.0.0",
+  "description": "A sample voice app that works with the Jovo Framework",
+  "main": "src/index.js",
   "dependencies": {
-    "ask-sdk": "^2.8.0",
-    "ask-sdk-express-adapter": "^2.1.0",
-    "axios": "^0.19.2",
-    "axios-debug-log": "^0.8.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "ssl-root-cas": "^1.3.1"
+    "jovo-db-filedb": "^3.0.14",
+    "jovo-framework": "^3.0.22",
+    "jovo-platform-alexa": "^3.0.15",
+    "jovo-platform-googleassistant": "^3.0.15",
+    "jovo-plugin-debugger": "^3.0.14"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.0",
-    "@babel/preset-env": "^7.11.0",
-    "axios-mock-adapter": "^1.18.2",
-    "jest": "^26.2.2",
-    "nock": "^13.0.3"
-  }
+    "gulp": "^4.0.2",
+    "gulp-install": "^1.1.0",
+    "gulp-run-command": "0.0.10",
+    "gulp-zip": "^5.0.1",
+    "jest": "^26.0.1"
+  },
+  "scripts": {
+    "tsc": "node -v",
+    "test": "jest",
+    "bundle": "gulp --gulpfile node_modules/jovo-framework/gulpfile.js --cwd ./",
+    "start": "cd src && node index.js --webhook",
+    "launch": "npm start -- --launch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovotech/jovo-sample-voice-app-nodejs.git"
+  },
+  "author": "Jovo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jovotech/jovo-sample-voice-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/jovotech/jovo-sample-voice-app-nodejs#readme"
 }

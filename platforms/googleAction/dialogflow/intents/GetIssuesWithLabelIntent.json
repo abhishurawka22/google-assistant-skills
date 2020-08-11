@@ -1,0 +1,17 @@
+{
+	"name": "GetIssuesWithLabelIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "label",
+					"value": "$label",
+					"dataType": "@user"
+				}
+			]
+		}
+	]
+}

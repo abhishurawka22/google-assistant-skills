@@ -1,0 +1,23 @@
+{
+	"name": "GetMedianReviewTimeIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "dateOne",
+					"value": "$dateOne",
+					"dataType": "@sys.date-time"
+				},
+				{
+					"isList": false,
+					"name": "dateTwo",
+					"value": "$dateTwo",
+					"dataType": "@sys.date-time"
+				}
+			]
+		}
+	]
+}

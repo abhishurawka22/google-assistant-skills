@@ -1,0 +1,17 @@
+{
+	"name": "GiveOwnerNameIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "user",
+					"value": "$user",
+					"dataType": "@user"
+				}
+			]
+		}
+	]
+}

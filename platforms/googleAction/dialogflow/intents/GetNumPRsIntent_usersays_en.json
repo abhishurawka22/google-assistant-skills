@@ -1,0 +1,22 @@
+[
+	{
+		"data": [
+			{
+				"text": "Get number of open pull requests",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "How many open pull requests are there",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

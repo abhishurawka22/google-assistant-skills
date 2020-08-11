@@ -1,0 +1,23 @@
+{
+	"name": "MergeBranchIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "base",
+					"value": "$base",
+					"dataType": "@user"
+				},
+				{
+					"isList": false,
+					"name": "head",
+					"value": "$head",
+					"dataType": "@user"
+				}
+			]
+		}
+	]
+}

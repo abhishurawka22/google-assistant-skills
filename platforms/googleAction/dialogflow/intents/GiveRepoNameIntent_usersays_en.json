@@ -1,0 +1,114 @@
+[
+	{
+		"data": [
+			{
+				"text": "select ",
+				"userDefined": false
+			},
+			{
+				"text": "repository",
+				"userDefined": true,
+				"alias": "repository",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "pick ",
+				"userDefined": false
+			},
+			{
+				"text": "repository",
+				"userDefined": true,
+				"alias": "repository",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "choose ",
+				"userDefined": false
+			},
+			{
+				"text": "repository",
+				"userDefined": true,
+				"alias": "repository",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "interact with repository ",
+				"userDefined": false
+			},
+			{
+				"text": "repository",
+				"userDefined": true,
+				"alias": "repository",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "interact with ",
+				"userDefined": false
+			},
+			{
+				"text": "repository",
+				"userDefined": true,
+				"alias": "repository",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "use repo ",
+				"userDefined": false
+			},
+			{
+				"text": "repository",
+				"userDefined": true,
+				"alias": "repository",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "Use respository ",
+				"userDefined": false
+			},
+			{
+				"text": "repository",
+				"userDefined": true,
+				"alias": "repository",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

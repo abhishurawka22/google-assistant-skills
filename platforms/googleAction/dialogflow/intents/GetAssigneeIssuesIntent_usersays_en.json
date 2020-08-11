@@ -1,0 +1,34 @@
+[
+	{
+		"data": [
+			{
+				"text": "List all issues assigned to ",
+				"userDefined": false
+			},
+			{
+				"text": "user",
+				"userDefined": true,
+				"alias": "user",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "What are the issues assigned to ",
+				"userDefined": false
+			},
+			{
+				"text": "user",
+				"userDefined": true,
+				"alias": "user",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

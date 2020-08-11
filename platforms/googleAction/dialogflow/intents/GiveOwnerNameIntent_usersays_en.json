@@ -1,0 +1,78 @@
+[
+	{
+		"data": [
+			{
+				"text": "owner is ",
+				"userDefined": false
+			},
+			{
+				"text": "user",
+				"userDefined": true,
+				"alias": "user",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "the owner is ",
+				"userDefined": false
+			},
+			{
+				"text": "user",
+				"userDefined": true,
+				"alias": "user",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "user ",
+				"userDefined": false
+			},
+			{
+				"text": "user",
+				"userDefined": true,
+				"alias": "user",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "username ",
+				"userDefined": false
+			},
+			{
+				"text": "user",
+				"userDefined": true,
+				"alias": "user",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "user",
+				"userDefined": true,
+				"alias": "user",
+				"meta": "@user"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]
